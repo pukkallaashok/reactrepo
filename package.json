@@ -2,9 +2,10 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "for react purpose",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "Start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test":"jest"
   },
   "author": "",
   "license": "ISC",
