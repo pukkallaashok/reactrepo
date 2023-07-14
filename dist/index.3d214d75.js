@@ -2983,6 +2983,23 @@ _c1 = HeadingComponent2;
 //also this is the component composition  
 const HeadingComponent3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
         children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "search",
+                id: "bar",
+                placeholder: "Google it"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 20,
+                columnNumber: 17
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                id: "button",
+                children: "search"
+            }, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 21,
+                columnNumber: 17
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 id: "container",
                 children: [
@@ -2992,13 +3009,13 @@ const HeadingComponent3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reac
                         children: "Functional component without return, in multiple lines"
                     }, void 0, false, {
                         fileName: "index.js",
-                        lineNumber: 22,
+                        lineNumber: 24,
                         columnNumber: 21
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "index.js",
-                lineNumber: 20,
+                lineNumber: 22,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3007,12 +3024,12 @@ const HeadingComponent3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reac
                     children: "Functional component : It is a normal JS function that can return the JSX code or React element."
                 }, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 27,
+                    lineNumber: 29,
                     columnNumber: 21
                 }, undefined)
             }, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 17
             }, undefined)
         ]
@@ -3024,7 +3041,7 @@ const HeadingComponent3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reac
 _c2 = HeadingComponent3;
 Root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent3, {}, void 0, false, {
     fileName: "index.js",
-    lineNumber: 34,
+    lineNumber: 36,
     columnNumber: 21
 }, undefined));
 var _c, _c1, _c2;

@@ -17,6 +17,8 @@
         //also this is the component composition  
         const HeadingComponent3 = () => (
             <React.Fragment>
+                <input type="search" id="bar" placeholder="Google it"/>
+                <button id="button">search</button>
                 <div id="container">
                     {jsxheading}
                     <h1 className="comp">
